@@ -22,7 +22,16 @@ Pip install wrds pandas numpy matplotlib scikit-learn tensorflow
 
 4.Features Retrieved: open, high , low , vol , ret
 ### 3.2 Prepocessing Steps
-1.Dropped missing
+1.Dropped missing values(NaN)
+
+2.Applied absolute value transformation to price colums (to handle potential negative values in raw CRSP data)
+
+3.Scaled the close price to [0,1] using MinMaxScaler for stable LSTM training
+
+4.Created sequences with a  time_steps=60 window (using the past 60 days to predict the next day's closing price)
+
+5.Split into training (80%) and test (20%) sets
+
 
 
 
