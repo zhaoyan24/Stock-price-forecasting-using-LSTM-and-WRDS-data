@@ -7,8 +7,22 @@ This project is developed in Python using the following libraries:
 ### 2.1
 Pip install wrds pandas numpy matplotlib scikit-learn tensorflow
 ### 2.2
-Python 3.8+(tested with Anaconda)
-### 2.3
-TensorFlow 2.x(note:GPU acceleration
+1.Python 3.8+(tested with Anaconda)
+
+2.TensorFlow 2.x(note:GPU acceleration is not supported for native Windows in TensorFlow ≥2.11,use WSL2 or TensorFlow-DirectML if needed)
+
+3.WRDS account required for data access
+## Part 3 Data Source & Preprocessing
+### 3.1 Data Acquisition
+1.Source: WRDS CRSP Daily Stock File(crsp.dsf)
+
+2.Target Ticker:
+
+3.Date Range: 2020-01-01 to latest available
+
+4.Features Retrieved: open, high , low , vol , ret
+### 3.2 Prepocessing Steps
+1.Dropped missing
+
 
 
