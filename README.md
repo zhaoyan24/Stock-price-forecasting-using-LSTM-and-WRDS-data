@@ -34,7 +34,8 @@ Pip install wrds pandas numpy matplotlib scikit-learn tensorflow
 ## Part 4 LSTM Model Architecture
 The model is a sequential LSTM neural network designed for time-series regression:
 
-![LSTM model]("C:\Users\liuqi\Desktop\360截图20260422150054395.jpg")
+(<img width="1638" height="892" alt="360截图20260422150054395" src="https://github.com/user-attachments/assets/ee412fa4-6d99-4211-89c9-23f8be1dfa5e" />
+)
 
 1.Input:Sequences of shape (samples, 60, 1) (60-day closing prices)
 
