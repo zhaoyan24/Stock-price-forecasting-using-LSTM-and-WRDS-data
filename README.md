@@ -61,6 +61,13 @@ The model's predictions(green:training, red:test) closely follow the blue line o
 - The high **R² Score(≈0.95-0.97)** indicate the model expains over 95% of the variance in TSLA’s closing prices.
 
 - The test set MSE is significantly lower than the training set MSE, which aligns with the validation loss curve and suggests no severe overfitting.
+### 3. Training & Validation Loss
+
+The loss plot shows:
+
+- Training loss (blue) decreases steadily in the first 10 epochs and stabilizes afterward.
+
+- Validation loss (orange) remains consistently low throughout training, with no upward trend, confirming the model generalizes well to unseen data.
 
 
 
