@@ -53,6 +53,12 @@ The model is a sequential LSTM neural network designed for time-series regressio
 The model's predictions(green:training, red:test) closely follow the blue line of actual TSLA prices across the entire time range, including periods of high volatility(e.g., the 2020-2021 rally, 2022 correction, and post-2023 recovery).
 ### 2. Quantitative Metrics
 
+|Metric|Training Set|Test Set|
+|---|---|---|
+|MSE|3525.49|245.29|
+|R² Score|0.9738|0.9558|
+
+
 
 
 
