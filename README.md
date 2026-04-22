@@ -87,6 +87,17 @@ The loss plot shows:
 3. Enter your desired stock ticker (e.g., TSLA, AAPL) when prompted.
 
 4. View the generated prediction plot and loss curve.
+## Part 8 AI Disclosure
+
+This README and the accompanying code were refined with the assistance of Doubao AI (access date: 2026-04-20). The AI was used for:
+
+- Structuring the project documentation
+
+- Summarizing model architecture and results
+
+- Formatting the README for clarity
+
+All code implementation, data analysis, and interpretation of results are the original work of the author.
 
 
 
