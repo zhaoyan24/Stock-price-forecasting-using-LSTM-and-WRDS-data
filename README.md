@@ -58,6 +58,8 @@ The model's predictions(green:training, red:test) closely follow the blue line o
 |MSE|3525.49|245.29|
 |R² Score|0.9738|0.9558|
 
+- The high **R² Score(≈0.95-0.97)** indicate the model expains over
+
 
 
 
