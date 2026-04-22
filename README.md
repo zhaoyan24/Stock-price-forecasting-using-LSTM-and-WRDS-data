@@ -76,9 +76,17 @@ The loss plot shows:
 ### 2. Technical Notes:
 - You will need a valid WRDS account to run the full data retrieval code.
 
-- On native Windows, TensorFlow ≥2.11 does not support GPU acceleration. If training is slow, consider using WSL2 or TensorFlow-DirectML.   3.
+- On native Windows, TensorFlow ≥2.11 does not support GPU acceleration. If training is slow, consider using WSL2 or TensorFlow-DirectML.   
 ### 3. Hyperparameter Tuning:
 - Adjust time_steps, train_ratio, epochs, or LSTM units to optimize performance for different stocks.
+## Part 7 How to Run
+1. Install dependencies and set up your WRDS account.
+
+2. Run the notebook/script
+
+3. Enter your desired stock ticker (e.g., TSLA, AAPL) when prompted.
+
+4. View the generated prediction plot and loss curve.
 
 
 
