@@ -68,6 +68,17 @@ The loss plot shows:
 - Training loss (blue) decreases steadily in the first 10 epochs and stabilizes afterward.
 
 - Validation loss (orange) remains consistently low throughout training, with no upward trend, confirming the model generalizes well to unseen data.
+## Part 6 Key Notes & Limitations
+### 1. Fiancial Forecasting Limitations:
+- This model uses only historical price data and does not account for market news, macroeconomic factors, or company fundamentals.
+
+- Past performance is not indicative of future results, especially for volatile stocks like TSLA.
+### 2. Technical Notes:
+- You will need a valid WRDS account to run the full data retrieval code.
+
+- On native Windows, TensorFlow ≥2.11 does not support GPU acceleration. If training is slow, consider using WSL2 or TensorFlow-DirectML.   3.
+### 3. Hyperparameter Tuning:
+- Adjust time_steps, train_ratio, epochs, or LSTM units to optimize performance for different stocks.
 
 
 
