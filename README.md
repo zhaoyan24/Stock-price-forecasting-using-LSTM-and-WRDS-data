@@ -31,6 +31,17 @@ Pip install wrds pandas numpy matplotlib scikit-learn tensorflow
 4.Created sequences with a  time_steps=60 window (using the past 60 days to predict the next day's closing price)
 
 5.Split into training (80%) and test (20%) sets
+## Part 4 LSTM Model Architecture
+The model is a sequential LSTM neural network designed for time-series regression:
+
+![LSTM model]("C:\Users\liuqi\Desktop\360截图20260422150054395.jpg")
+
+1.Input:Sequences of shape (samples, 60, 1) (60-day closing prices)
+
+2.Architecture:
+  2 stacked LSTM
+
+
 
 
 
