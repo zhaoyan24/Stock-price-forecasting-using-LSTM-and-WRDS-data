@@ -13,7 +13,7 @@ This project is developed in Python using the following libraries:
 
 - WRDS account required for data access
 ## Part 3 Data Source & Preprocessing
-### 1 Data Acquisition
+### 1. Data Acquisition
 - Source: WRDS CRSP Daily Stock File(crsp.dsf)
 
 - Target Ticker:
@@ -21,7 +21,7 @@ This project is developed in Python using the following libraries:
 - Date Range: 2020-01-01 to latest available
 
 - Features Retrieved: open, high , low , vol , ret
-### 2 Prepocessing Steps
+### 2. Prepocessing Steps
 - Dropped missing values(NaN)
 
 - Applied absolute value transformation to price colums (to handle potential negative values in raw CRSP data)
@@ -41,17 +41,17 @@ The model is a sequential LSTM neural network designed for time-series regressio
 
 **Architecture**:
   
-  2 stacked LSTM layers with 50 units each
+  - 2 stacked LSTM layers with 50 units each
 
-  2 Dropout layers(rate=0.2)for regularization
+  - Dropout layers(rate=0.2)for regularization
 
-  2 Dense layers to map LSTM outputs to the predicted closing price
+  - Dense layers to map LSTM outputs to the predicted closing price
 
 **Training**: Optimizer=Adam, Loss funtion=Mean Squared Error (MSE), Epochs=25, Batch size=32
 ## Part 5 Model Performance
-### 5.1 Prediction vs. Actual Price
+### 1. Prediction vs. Actual Price
 The model's predictions(green:training, red:test) closely follow the blue line of actual TSLA prices across the entire time range, including periods of high volatility(e.g., the 2020-2021 rally, 2022 correction, and post-2023 recovery).
-### 5.2 Quantitative Metrics
+### 2. Quantitative Metrics
 
 
 
