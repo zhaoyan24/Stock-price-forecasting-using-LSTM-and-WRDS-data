@@ -16,7 +16,7 @@ This project is developed in Python using the following libraries:
 ### 1. Data Acquisition
 - Source: WRDS CRSP Daily Stock File(crsp.dsf)
 
-- Target Ticker:
+- Target Ticker: TSLA
 
 - Date Range: 2020-01-01 to latest available
 
